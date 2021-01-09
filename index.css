@@ -84,7 +84,7 @@ section {
     right: 0;
 }
 
-.section__title--member {
+.section__title--projects {
     font-family: "Gruppo";
     font-size: 60px;
     position: relative;
@@ -93,7 +93,7 @@ section {
     color: white;
 }
 
-.section__title--member:before, .section__title--member:after{
+.section__title--projects:before, .section__title--projects:after{
     content: '';
     position: absolute;
     top: 50%;
@@ -103,17 +103,23 @@ section {
     background-color: white;
 }
 
-.section__title--member:before {
+.section__title--projects:before {
     left: 0;
 }
 
-.section__title--member:after {
+.section__title--projects:after {
     right: 0;
 }
 
 
 .section__content {
     padding-top: 50px;
+}
+
+.section__content h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 
 .top {
@@ -147,37 +153,30 @@ section {
 }
 
 #Projects {
-    background-image: url("member_back.jpg");
+    background-image: url("projects_back.jpg");
     border-bottom: 50px solid transparent;
     height: 400px;
     color: white;
 }
 
-.member__container {
-    margin-left: 27%;
+.projects__container {
     margin-top: 40px;
-    position: absolute;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     color: black;
 }
 
-.member__container h3 {
-    font-size: 30px;
-    font-family: "Sawarabi Mincho";
+.projects__container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 
-.member__box {
-   float: left;
+.projects__box {
     background-color: rgba(255,255,255,0.6);
     margin: 10px;
     padding: 5px;
-    font-family: "Sawarabi Mincho";
-    height: 160px;
-}
-
-.member__box p {
-    font-family: "Sawarabi Mincho";
-    font-size: 20px;
 }
 
 footer {
